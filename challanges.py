@@ -37,7 +37,7 @@ Code:
 
 
 
-Hint: while loop
+Hint: while or for loop
 
 
 Intermediate:
