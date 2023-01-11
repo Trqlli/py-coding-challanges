@@ -19,13 +19,19 @@ list_check([90, 2123, 3435])
 
 
 # 2:
-def count(number):
+def count_while(number):
     count = 0
     while count <= number:
         print(count)
         count += 1
 
-count(10)
+count_while(10)
+
+def count_for(number):
+    for i in range(number+1):
+        print(i)
+
+count_for(10)
 
 # Intermediate Solution
 # 1:
