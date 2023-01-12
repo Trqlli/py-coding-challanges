@@ -1,13 +1,13 @@
 # Easy Solution
 # 1:
-def check_list_bool_exercise(list) -> bool:
+def check_list_bool_exercise(list: list) -> bool:
     if len(list) < 6:
         return True
     else:
         return False
 
 
-def list_check(list):
+def list_check(list: list) -> print:
     if check_list_bool_exercise(list):
         print("The list is under the limit")
     else:
@@ -19,17 +19,20 @@ list_check([90, 2123, 3435])
 
 
 # 2:
-def count_while(number):
+def count_while(number: int):
     count = 0
     while count <= number:
         print(count)
         count += 1
 
+
 count_while(10)
 
-def count_for(number):
+
+def count_for(number: int):
     for i in range(number+1):
         print(i)
+
 
 count_for(10)
 
@@ -48,7 +51,7 @@ print_time_loop()
 
 
 # 2:
-def check_name_start_letter(names):
+def check_name_start_letter(names: str) -> print:
     count = 0
     for i in names:
 
