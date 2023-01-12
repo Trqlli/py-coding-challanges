@@ -24,6 +24,9 @@ def your_function():
     # Your code...
     pass
 
+# Anonymous function (rarely used)
+anonymous_function = lambda a: a*5
+print(anonymous_function(a=5))  # Result 25
 
 # Reverse a string
 your_string = "Hello World"
@@ -34,7 +37,7 @@ reverse = "".join(list(reversed("Reverse")))
 
 
 # Check if a string startswith something
-name = "Manuel"
+name = "Max"
 if name.startswith("M"):
     # Your code
     pass
