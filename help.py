@@ -12,6 +12,11 @@ your_list = [1, "2", 3, "4"]
 # Make a dictionary
 your_dictionary = {"item": "value"}
 
+# Get item from dictionary
+print(your_dictionary["item"])
+print("{item}".format(**your_dictionary))
+
+
 # Make a tuple
 your_tuple = ("item1", "item2", "item3")
 
